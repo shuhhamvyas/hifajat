@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998215118981",
+    "project_id": "otpverification-fc3f3",
+    "storage_bucket": "otpverification-fc3f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998215118981:android:1c079b923d7bc9504a79ec",
+        "android_client_info": {
+          "package_name": "com.baat.hifazat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998215118981-i92k0savi4ifuijo4nacv041ru4icmld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDneMDnqHwp-TERJBkM_DeJDG2v2mzfarc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998215118981-i92k0savi4ifuijo4nacv041ru4icmld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

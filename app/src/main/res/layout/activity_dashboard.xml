@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4D885"
+    tools:context=".dashboard">
+
+  <TextView
+      android:id="@+id/callnum"
+      android:layout_width="168dp"
+      android:layout_height="25dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginEnd="50dp"
+      android:text="Call Numbers"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.475"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView2"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/trackme"
+      android:layout_width="98dp"
+      android:layout_height="38dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginEnd="200dp"
+      android:text="Track Me"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+  <TextView
+      android:id="@+id/fakecall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="200dp"
+      android:layout_marginTop="4dp"
+      android:text="Fake Call"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.726"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+  <Button
+      android:id="@+id/emergency"
+      android:layout_width="match_parent"
+      android:layout_height="65dp"
+      android:layout_marginStart="95dp"
+      android:layout_marginEnd="95dp"
+      android:backgroundTint="#EC0202"
+      android:text="EMERGENCY"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      app:iconTint="#191717"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.623"
+      app:rippleColor="#96695E" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="111dp"
+      android:layout_height="92dp"
+      app:layout_constraintBottom_toTopOf="@+id/emergency"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.228"
+      app:srcCompat="@drawable/helpline" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="103dp"
+      android:layout_height="97dp"
+      android:layout_marginTop="60dp"
+      android:layout_marginEnd="200dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/callnum"
+      app:srcCompat="@drawable/location" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="98dp"
+      android:layout_height="107dp"
+      android:layout_marginStart="200dp"
+      android:layout_marginTop="60dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.726"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.336"
+      app:srcCompat="@drawable/fakecall" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="102dp"
+      android:layout_height="98dp"
+      android:layout_marginTop="400dp"
+      android:layout_marginEnd="200dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/addfriends" />
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="98dp"
+      android:layout_height="100dp"
+      android:layout_marginStart="200dp"
+      android:layout_marginTop="400dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.539"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.497"
+      app:srcCompat="@drawable/settings" />
+
+  <TextView
+      android:id="@+id/addf"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="200dp"
+      android:layout_marginBottom="60dp"
+      android:text="Add Contacts"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+  <TextView
+      android:id="@+id/settings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="200dp"
+      android:layout_marginBottom="60dp"
+      android:text="Logout"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
